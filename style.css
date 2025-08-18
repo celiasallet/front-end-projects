@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    background: linear-gradient(
+    to bottom,
+    #e6ebf5 0%,   
+    #4a74ff 100%
+    );
+}
+
+img {
+    filter: drop-shadow(0 0 6px #000);    
+}
+
+hr {
+    width: 90%;
+    border: solid .0625rem black;
+}
+
+.role {
+    padding: 4rem 5% 0 0;
+    font-family: 'Helvetica Neue';
+    text-align: center;
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+.sign {
+    font-size: 1.5rem;
+    border-bottom: none;
+    margin-bottom: 4rem;
+
+}
