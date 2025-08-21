@@ -28,7 +28,7 @@ button {
     font-weight: 700;
     cursor: pointer;
     margin-bottom: 5rem;
-    margin-top: -5rem;
+    
 }
 
 button:hover{
@@ -36,7 +36,7 @@ button:hover{
     color: #ffffff;
 }
 .role {
-    padding: 4rem 5% 4rem 0;
+    padding: 2rem;
     font-family: 'Helvetica Neue';
     text-align: center;
     font-weight: 200;
@@ -45,7 +45,18 @@ button:hover{
 
 .sign {
     font-size: clamp(1rem, 0.375rem + 2vw, 1.5rem);
-    border-bottom: none;
-    margin-bottom: 4rem;
+    padding: 2rem;
+}
 
+img.lazy-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+
+img.lazy-img[src] {
+  opacity: 1;
 }
