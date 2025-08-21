@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
     max-width: 100vw;
     background: linear-gradient(
     to bottom,
@@ -10,7 +11,8 @@ body {
 }
 
 img {
-    filter: drop-shadow(0 0 6px #000);    
+    filter: drop-shadow(0 0 6px #000);  
+    width: 100%;  
 }
 
 hr {
@@ -18,6 +20,21 @@ hr {
     border: solid .0625rem black;
 }
 
+button {
+    background-color: transparent;
+    border-radius: 3rem;
+    border: solid .125rem;
+    padding: 1rem 2rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 5rem;
+    margin-top: -5rem;
+}
+
+button:hover{
+    background-color: #000;
+    color: #ffffff;
+}
 .role {
     padding: 4rem 5% 4rem 0;
     font-family: 'Helvetica Neue';
